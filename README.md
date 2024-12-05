@@ -1,13 +1,13 @@
 # Flutter Navigation App
 
-Ini merupakan tugas Session 5 (Navigation & Routes) saya, yaitu membuat aplikasi Flutter sederhana yang menunjukkan navigasi antar beberapa layar menggunakan route bernama, serta penerapan drawer dan bottom navigation bar untuk perpindahan halaman. Aplikasi ini menampilkan praktik terbaik dalam mengelola navigasi pada proyek Flutter.
+Ini merupakan tugas Session 5 (Navigation & Routes) saya, yaitu membuat aplikasi Flutter sederhana yang menunjukkan navigasi antar beberapa layar menggunakan route bernama, serta penerapan drawer dan bottom navigation bar untuk perpindahan halaman.
 
 ---
 
 ## Fitur
 
 - **Route Bernama:** Navigasi antar layar menggunakan nama route yang telah ditentukan.
-- **Drawer Navigasi:** Berpindah antar layar dengan cepat menggunakan drawer di sisi kiri.
+- **Drawer Navigasi:** Berpindah antar layar dengan cepat menggunakan drawer (sidebar).
 - **Bottom Navigation Bar:** Beralih antar tab dengan label yang jelas dan ikon yang mudah dikenali.
 - **Beberapa Layar:** Terdiri dari empat layar untuk mendemonstrasikan fungsi navigasi.
 
@@ -33,7 +33,7 @@ Ini merupakan tugas Session 5 (Navigation & Routes) saya, yaitu membuat aplikasi
 
 ## Memulai
 
-Ikuti langkah-langkah berikut untuk menjalankan aplikasi di lingkungan lokal Anda:
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi di device Anda:
 
 ### Prasyarat
 
@@ -83,20 +83,14 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di lingkungan lokal And
 
 ---
 
-## Kustomisasi
-
-1. **Menambahkan Layar Baru**:
-   - Buat `Widget` baru untuk layar Anda (misalnya, `new_screen.dart`).
-   - Daftarkan layar tersebut di peta `routes` pada `main.dart`.
-   - Tambahkan entri di drawer atau bottom navigation bar.
-
-2. **Mengubah Tema**:
-   - Modifikasi properti `theme` di `MaterialApp` pada `main.dart`.
-
----
-
 ## Struktur Folder
 
 ```
 ├── lib
-│   ├── main.dart          # Titik ma
+│   ├── main.dart          # Titik masuk aplikasi
+│   ├── first_screen.dart  # Widget First Screen
+│   ├── second_screen.dart # Widget Second Screen
+│   ├── third_screen.dart  # Widget Third Screen
+│   ├── fourth_screen.dart # Widget Fourth Screen
+└── pubspec.yaml           # Dependensi
+```
