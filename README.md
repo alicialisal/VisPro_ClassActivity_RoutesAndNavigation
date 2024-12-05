@@ -1,4 +1,4 @@
-# Flutter Navigation App
+# Session 5 : Lab Activity - Routes & Navigation
 
 Ini merupakan tugas Session 5 (Navigation & Routes) saya, yaitu membuat aplikasi Flutter sederhana yang menunjukkan navigasi antar beberapa layar menggunakan route bernama, serta penerapan drawer dan bottom navigation bar untuk perpindahan halaman.
 
