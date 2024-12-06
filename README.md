@@ -46,8 +46,8 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di device Anda:
 1. Clone repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone [<repository-url>](https://github.com/alicialisal/VisPro_ClassActivity_RoutesAndNavigation.git)
+   cd VisPro_ClassActivity_RoutesAndNavigation
    ```
 
 2. Instal dependensi:
