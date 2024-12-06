@@ -94,3 +94,13 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di device Anda:
 │   ├── fourth_screen.dart # Widget Fourth Screen
 └── pubspec.yaml           # Dependensi
 ```
+
+## Pendekatan yang digunakan & Tantangan
+
+Dalam mengerjakan proyek ini, pendekatan yang saya gunakan untuk menyelesaikannya adalah:
+   - Penjelasan bagaimana route bernama, drawer navigasi, dan bottom navigation bar diterapkan untuk memastikan pengalaman pengguna yang konsisten serta memudahkan perpindahan halaman bagi pengguna.
+   - Teknik untuk mengelola argumen antar layar menggunakan metode `Navigator.pushNamed()`.
+
+Selain itu, saya juga menghadapi beberapa tantangan selama pengerjaan proyek ini, yaitu:
+   - Sinkronisasi drawer dan bottom navigation bar untuk navigasi tanpa tumpang tindih.
+   - Memastikan transisi antar layar tetap lancar dengan state management.
